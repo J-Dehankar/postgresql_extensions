@@ -1,0 +1,1689 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Aug  1 15:33:29 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 405)
+PROVE = 
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 225)
+TCL_SHLIB_LD_LIBS = 
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 277)
+FLEXFLAGS = $(LFLAGS)
+# environment
+XDG_SESSION_TYPE = x11
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 232)
+CLANG = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 205)
+enable_thread_safety = yes
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 334)
+perl_archlibexp = 
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 471)
+INSTALL = $(if $(use_install_sh),$(install_sh),$(if $(install_bin),$(install_bin),$(install_sh)))
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 234)
+BITCODE_CXXFLAGS = -O2 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/618242064/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 220)
+TCLSH = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 725)
+LIBOBJS = ${LIBOBJDIR}fls$U.o ${LIBOBJDIR}strlcat$U.o ${LIBOBJDIR}strlcpy$U.o ${LIBOBJDIR}getpeereid$U.o
+# makefile
+CURDIR := /home/local/ZOHOCORP/jayesh-14759/extensions/testext
+# makefile
+SHELL = /bin/sh
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 142)
+HEADER_alldirs := $(subst ,, )
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 319)
+LDFLAGS_SL = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 227)
+PTHREAD_CFLAGS = -D_REENTRANT -D_THREAD_SAFE -D_POSIX_PTHREAD_SEMANTICS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 324)
+X = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 320)
+LDREL = -r
+# environment
+_ = /usr/share/code/code
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 230)
+LLVM_CONFIG = 
+# 'override' directive (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 100)
+CFLAGS = -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Wendif-labels -Wmissing-format-attribute -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -g -DRANDOMIZE_ALLOCATED_MEMORY -O0 -fno-omit-frame-pointer -fsanitize=address $(CFLAGS_SL)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 311)
+LDFLAGS_INTERNAL = -L$(libdir)
+# environment
+JOURNAL_STREAM = 8:56930
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 537)
+WIN32_STACK_RLIMIT = 4194304
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 527)
+host_cpu = x86_64
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 197)
+define install_headers
+$(MKDIR_P) '$(DESTDIR)$(includedir_server)/$(incmoduledir)/$(1)/'
+$(INSTALL_DATA) $(2) '$(DESTDIR)$(includedir_server)/$(incmoduledir)/$(1)/'
+
+endef
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 338)
+perl_embed_ldflags = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 228)
+PTHREAD_LIBS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 206)
+enable_strong_random = yes
+# makefile (from '.deps/testext.Po', line 1)
+MAKEFILE_LIST :=  Makefile /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port .deps/testext.Po
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 900)
+autodepend = yes
+# automatic
+@F = $(notdir $@)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 190)
+with_gssapi = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 286)
+DLLWRAP = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 258)
+GCC = yes
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 351)
+GZIP = gzip
+# environment
+USERNAME = jayesh-14759
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 494)
+FOP = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 193)
+with_libxml = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 199)
+enable_rpath = yes
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 266)
+CXXFLAGS = -Wall -Wpointer-arith -Wendif-labels -Wmissing-format-attribute -Wformat-security -fno-strict-aliasing -fwrapv -g -O2
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 162)
+pkgincludedir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 323)
+WINDRES = 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/618242064/bus
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 196)
+with_system_tzdata = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 39)
+VERSION = 11.16
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 290)
+UUID_LIBS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 463)
+prove_installcheck = @echo "TAP tests not enabled"
+ 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 346)
+MSGMERGE = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 861)
+define _create_recursive_target
+.PHONY: $(1)-$(2)-recurse
+$(1): $(1)-$(2)-recurse
+$(1)-$(2)-recurse: $(if $(filter all install check installcheck, $(3)), submake-generated-headers) $(if $(filter check, $(3)), temp-install)
+	$$(MAKE) -C $(2) $(3)
+endef
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 342)
+AWK = mawk
+# 'override' directive (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 97)
+CPPFLAGS := -I. -I./ -I/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server -I/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/internal  -D_GNU_SOURCE 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 110)
+docmoduledir := extension
+# environment
+MANAGERPID = 2778
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 8)
+DLSUFFIX = .so
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 930)
+Po_files := .deps/testext.Po
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 278)
+DTRACE = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 242)
+CPP = /home/jayesh-14759/zlabs/installs/llvm11/bin/clang -E
+# environment
+VSCODE_CWD = /home/local/ZOHOCORP/jayesh-14759
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 109)
+datamoduledir := extension
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 171)
+includedir_server = $(pkgincludedir)/server
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 192)
+with_ldap = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 523)
+build_os = linux-gnu
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 185)
+with_python = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 184)
+with_perl = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 512)
+WANTED_LANGUAGES = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 294)
+with_gnu_ld = yes
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/bin
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 275)
+BISONFLAGS = -Wno-deprecated $(YFLAGS)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 584)
+libpq_pgport = -L$(libdir) -lpgcommon -lpgport $(libpq)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 3)
+export_dynamic = -Wl,-E
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 22)
+standard_targets = all install installdirs uninstall distprep clean distclean maintainer-clean coverage check checkprep installcheck init-po update-po
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 293)
+LD = /usr/bin/ld
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 45)
+top_srcdir = $(top_builddir)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 285)
+DLLTOOL = 
+# environment
+GPG_AGENT_INFO = /run/user/618242064/gnupg/S.gpg-agent:0:1
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 511)
+DEF_PGPORT = 5432
+# environment
+SESSION_MANAGER = local/jayesh-14759:@/tmp/.ICE-unix/3047,unix/jayesh-14759:/tmp/.ICE-unix/3047
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 188)
+with_selinux = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 165)
+localedir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/share/locale
+# environment
+XDG_RUNTIME_DIR = /run/user/618242064
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 161)
+includedir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 530)
+HAVE_IPV6 = yes
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 474)
+INSTALL_DATA_MODE = 644
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 211)
+python_additional_libs = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 495)
+XMLLINT = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 57)
+VPATH = $(srcdir)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 264)
+CFLAGS_SSE42 = -msse4.2
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 656)
+pg_regress_installcheck = $(top_builddir)/src/test/regress/pg_regress --inputdir=$(srcdir) --bindir='$(bindir)' $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 158)
+sysconfdir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/etc/postgresql
+# environment
+XDG_MENU_PREFIX = gnome-
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 284)
+AR = ar
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = a2c0f5db9f1647848643e5f1c154dcf5
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 291)
+UUID_EXTRA_OBJS = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 209)
+python_libdir = 
+# makefile (from 'Makefile', line 1)
+MODULES = testext
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 469)
+install_bin = /usr/bin/install -c
+# environment
+LS_COLORS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 224)
+TCL_SHARED_BUILD = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 203)
+define uninstall_headers
+rm -f $(addprefix '$(DESTDIR)$(includedir_server)/$(incmoduledir)/$(1)'/, $(notdir $(2)))
+
+endef
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/618242064/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 12153
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 670)
+pg_isolation_regress_installcheck = $(top_builddir)/src/test/isolation/pg_isolation_regress --inputdir=$(srcdir) --outputdir=output_iso --bindir='$(bindir)' $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
+# automatic
+%F = $(notdir $%)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 640)
+TEMP_CONF = 
+# environment
+DISPLAY = :0
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 203)
+enable_coverage = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 56)
+srcdir = $(dir $(firstword $(MAKEFILE_LIST)))
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 632)
+CONTRIB_TESTDB = contrib_regression
+# environment
+PWD = /home/local/ZOHOCORP/jayesh-14759/extensions/testext
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 566)
+libpq_builddir = $(libdir)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 156)
+bindir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/bin
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 352)
+BZIP2 = bzip2
+# makefile (from 'Makefile', line 2)
+EXTENSION = testext
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2972
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 163)
+mandir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/share/man
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 478)
+INSTALL_STLIB = $(INSTALL_STLIB_ENV) $(INSTALL_DATA) $(INSTALL_STRIP_FLAG)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 159)
+libdir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib
+# environment
+GTK_MODULES = gail:atk-bridge
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 347)
+PYTHON = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 473)
+INSTALL_SCRIPT_MODE = 755
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/local/ZOHOCORP/jayesh-14759
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 470)
+install_sh = $(SHELL) $(top_srcdir)/config/install-sh -c
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 876)
+recurse = $(foreach target,$(if $1,$1,$(standard_targets)),$(foreach subdir,$(if $2,$2,$(SUBDIRS)),$(eval $(call _create_recursive_target,$(target),$(subdir),$(if $3,$3,$(target))))))
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 204)
+enable_tap_tests = no
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 413)
+add_to_path = $(1)="$(if $($(1)),$(2):$$$(1),$(2))"
+# environment
+VSCODE_CODE_CACHE_PATH = /home/local/ZOHOCORP/jayesh-14759/.config/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 348)
+TAR = /usr/bin/tar
+# environment
+LOGNAME = jayesh-14759
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 217)
+ICU_CFLAGS = 
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 174)
+bitcodedir = $(pkglibdir)/bitcode
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 322)
+RANLIB = ranlib
+# makefile (from 'Makefile', line 5)
+PGXS := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 223)
+TCL_INCLUDE_SPEC = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 184)
+header_file_list = $(HEADER_built_$(1)) $(addprefix $(srcdir)/,$(HEADER_unbuilt_$(1)))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 221)
+TCL_LIBS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 268)
+LLVM_CPPFLAGS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 218)
+ICU_LIBS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 189)
+with_systemd = no
+# environment
+MAKELEVEL := 0
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 886)
+recurse_always = $(foreach target,$(if $1,$1,$(standard_always_targets)),$(foreach subdir,$(if $2,$2,$(ALWAYS_SUBDIRS)),$(eval $(call _create_recursive_target,$(target),$(subdir),$(if $3,$3,$(target))))))
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 173)
+pgxsdir = $(pkglibdir)/pgxs
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 210)
+python_libspec = 
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 485)
+missing = $(SHELL) $(top_srcdir)/config/missing
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 317)
+LDFLAGS_EX = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 489)
+STRIP_SHARED_LIB = strip --strip-unneeded
+# environment
+SHLVL = 0
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 500)
+GCOV = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 244)
+PG_SYSROOT = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 197)
+with_uuid = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 344)
+MSGFMT = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 631)
+PL_TESTDB = pl_regression
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 257)
+CC = /home/jayesh-14759/zlabs/installs/llvm11/bin/clang
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 265)
+CFLAGS_ARMV8_CRC32C = 
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1046)
+COMPILE.cxx.bc = $(CLANG) -xc++ -Wno-ignored-attributes $(BITCODE_CXXFLAGS) $(CPPFLAGS) -flto=thin -emit-llvm -c
+# default
+MAKE_VERSION := 4.2.1
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 501)
+LCOV = 
+# environment
+USER = jayesh-14759
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 75)
+vpathsearch = `for f in $(addsuffix /$(1),$(subst :, ,. $(VPATH))); do test -r $$f && echo $$f && break; done`
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 41)
+VERSION_NUM = 110016
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 187)
+with_openssl = no
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 24)
+standard_always_targets = distprep clean distclean maintainer-clean
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 213)
+python_version = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 483)
+MKDIR_P = /usr/bin/mkdir -p
+# environment
+ASAN_SYMBOLIZER_PATH = /home/jayesh-14759/zlabs/installs/llvm11/bin/llvm-symbolizer
+ 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1081)
+define uninstall_llvm_module
+rm -rf '$(DESTDIR)${bitcodedir}/$(1)/'
+rm -f '$(DESTDIR)${bitcodedir}/$(1).index.bc'
+
+endef
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 292)
+LLVM_LIBS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 321)
+LDOUT = -o
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 280)
+ZIC = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 186)
+with_tcl = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 191)
+with_krb_srvnam = postgres
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 526)
+host_os = linux-gnu
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 198)
+with_zlib = yes
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 270)
+LLVM_CXXFLAGS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 1)
+AROPT = crs
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 183)
+with_icu = no
+# default
+MAKE_COMMAND := make
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 476)
+INSTALL_SCRIPT = $(INSTALL) -m $(INSTALL_SCRIPT_MODE)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 909)
+COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) -c
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 534)
+ELF_SYSTEM = true
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 289)
+LDAP_LIBS_BE = 
+# environment
+ASAN_OPTIONS = detect_leaks=0
+# default
+.VARIABLES := GNUMAKEFLAGS <D PROVE ?F DESKTOP_SESSION .SHELLFLAGS TCL_SHLIB_LD_LIBS XDG_SESSION_CLASS FLEXFLAGS XDG_SESSION_TYPE CLANG enable_thread_safety perl_archlibexp ?D IM_CONFIG_PHASE INSTALL BITCODE_CXXFLAGS @D XAUTHORITY GDMSESSION XMODIFIERS TCLSH LIBOBJS CURDIR SHELL HEADER_alldirs LDFLAGS_SL PTHREAD_CFLAGS VSCODE_NLS_CONFIG X LDREL _ LLVM_CONFIG CFLAGS LDFLAGS_INTERNAL JOURNAL_STREAM XDG_CONFIG_DIRS WIN32_STACK_RLIMIT host_cpu perl_embed_ldflags PTHREAD_LIBS enable_strong_random MAKEFILE_LIST autodepend @F with_gssapi DLLWRAP GCC GIO_LAUNCHED_DESKTOP_FILE GZIP USERNAME FOP with_libxml enable_rpath CXXFLAGS pkgincludedir XDG_DATA_DIRS WINDRES DBUS_SESSION_BUS_ADDRESS with_system_tzdata VERSION UUID_LIBS prove_installcheck MSGMERGE _create_recursive_target AWK CPPFLAGS docmoduledir MANAGERPID DLSUFFIX Po_files LESSOPEN DTRACE CPP VSCODE_CWD datamoduledir includedir_server with_ldap build_os with_python with_perl WANTED_LANGUAGES with_gnu_ld MAKE_HOST PATH BISONFLAGS libpq_pgport export_dynamic standard_targets LD top_srcdir DLLTOOL GPG_AGENT_INFO DEF_PGPORT SESSION_MANAGER with_selinux localedir XDG_RUNTIME_DIR includedir HAVE_IPV6 INSTALL_DATA_MODE python_additional_libs XMLLINT VPATH CFLAGS_SSE42 pg_regress_installcheck sysconfdir XDG_MENU_PREFIX AR ELECTRON_RUN_AS_NODE INVOCATION_ID UUID_EXTRA_OBJS .FEATURES python_libdir MODULES install_bin LS_COLORS TCL_SHARED_BUILD XDG_SESSION_DESKTOP SSH_AUTH_SOCK GIO_LAUNCHED_DESKTOP_FILE_PID pg_isolation_regress_installcheck %F TEMP_CONF DISPLAY enable_coverage srcdir CONTRIB_TESTDB PWD libpq_builddir bindir BZIP2 EXTENSION .LOADED SSH_AGENT_PID mandir ORIGINAL_XDG_CURRENT_DESKTOP INSTALL_STLIB libdir GTK_MODULES PYTHON INSTALL_SCRIPT_MODE VSCODE_AMD_ENTRYPOINT HOME install_sh recurse enable_tap_tests LESSCLOSE add_to_path VSCODE_CODE_CACHE_PATH TAR LOGNAME ICU_CFLAGS APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL bitcodedir RANLIB PGXS TCL_INCLUDE_SPEC VSCODE_HANDLES_UNCAUGHT_ERRORS GNOME_DESKTOP_SESSION_ID ^D TCL_LIBS LLVM_CPPFLAGS ICU_LIBS with_systemd MAKELEVEL recurse_always pgxsdir MAKE python_libspec MAKECMDGOALS QT_IM_MODULE missing LDFLAGS_EX STRIP_SHARED_LIB SHLVL GCOV PG_SYSROOT with_uuid MSGFMT PL_TESTDB CC CFLAGS_ARMV8_CRC32C GNOME_SHELL_SESSION_MODE COMPILE.cxx.bc MAKE_VERSION LCOV USER vpathsearch VERSION_NUM with_openssl .DEFAULT_GOAL standard_always_targets XDG_CURRENT_DESKTOP python_version MKDIR_P ASAN_SYMBOLIZER_PATH uninstall_llvm_module LLVM_LIBS LDOUT ZIC with_tcl with_krb_srvnam host_os %D with_zlib LLVM_CXXFLAGS AROPT with_icu MAKE_COMMAND INSTALL_SCRIPT COMPILE.cc ELF_SYSTEM LDAP_LIBS_BE ASAN_OPTIONS .VARIABLES incmoduledir *F LANGUAGE prove_check VSCODE_IPC_HOOK MSGFMT_FLAGS FLEX PORTNAME MAKEFLAGS MFLAGS *D krb_srvtab PG_CRC32C_OBJS have_win32_dbghelp DBTOEPUB includedir_internal BISON +D pg_regress_clean_files GDK_BACKEND DATA TAS +F MAJORVERSION enable_debug LDAP_LIBS_FE LLVM_CFLAGS STRIP QT_ACCESSIBILITY PROVE_FLAGS CFLAGS_VECTOR LDFLAGS with_libxslt ld_library_path_var .SHELLSTATUS MAKEFILES DEPDIR PG_CONFIG top_builddir perl_includespec <F INSTALL_SHLIB_OPTS LN_S NO_TEMP_INSTALL CFLAGS_SL STRIP_STATIC_LIB CXX pg_regress_locale_flags pkglibdir DTRACEFLAGS PERL with_temp_install pg_regress_check COMPILE.c.bc LC_ALL enable_dtrace INSTALL_PROGRAM python_includespec LLVM_BINPATH TCL_LIB_SPEC libpq_srcdir PG_PROVE_FLAGS GJS_DEBUG_TOPICS LIBS perl_embed_ccflags ^F python_majorversion pg_isolation_regress_check SUFFIXES COMPILE.c INSTALL_SHLIB CHROME_DESKTOP SUN_STUDIO_CC GENHTML WINDOWPATH enable_nls libpq .INCLUDE_DIRS INSTALL_DATA GJS_DEBUG_OUTPUT docdir perl_privlibexp XGETTEXT .RECIPEPREFIX NO_GENERATED_HEADERS rpath XSLTPROC install_llvm_module LANG configure_args host_tuple datadir VSCODE_PID rpathdir BITCODE_CFLAGS with_llvm
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 111)
+incmoduledir := extension
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_IN:en
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 464)
+prove_check = $(prove_installcheck)
+# environment
+VSCODE_IPC_HOOK = /run/user/618242064/vscode-23375ea6-1.69.0-main.sock
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 345)
+MSGFMT_FLAGS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 276)
+FLEX = /usr/bin/flex
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 521)
+PORTNAME = linux
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 215)
+krb_srvtab = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 728)
+PG_CRC32C_OBJS = pg_crc32c_sse42.o pg_crc32c_sb8.o pg_crc32c_sse42_choose.o
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 540)
+have_win32_dbghelp = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 493)
+DBTOEPUB = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 172)
+includedir_internal = $(pkgincludedir)/internal
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 274)
+BISON = /usr/bin/bison
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 646)
+pg_regress_clean_files = results/ regression.diffs regression.out tmp_check/ tmp_check_iso/ log/ output_iso/
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 3)
+DATA = testext--0.0.1.sql
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 738)
+TAS = 
+# automatic
++F = $(notdir $+)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 40)
+MAJORVERSION = 11
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 201)
+enable_debug = yes
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 288)
+LDAP_LIBS_FE = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 145)
+HEADER_allbuilt := 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 269)
+LLVM_CFLAGS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 487)
+STRIP = strip
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 410)
+PROVE_FLAGS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 263)
+CFLAGS_VECTOR = -funroll-loops -ftree-vectorize
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 550)
+LDFLAGS = $(LDFLAGS_INTERNAL)   -Wl,--as-needed $(rpath)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 194)
+with_libxslt = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 419)
+ld_library_path_var = LD_LIBRARY_PATH
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 912)
+DEPDIR = .deps
+# makefile (from 'Makefile', line 4)
+PG_CONFIG = pg_config
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 81)
+top_builddir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../..
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 336)
+perl_includespec = 
+# automatic
+<F = $(notdir $<)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 481)
+INSTALL_SHLIB_OPTS = -m 755
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 343)
+LN_S = ln -s
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 78)
+NO_TEMP_INSTALL = yes
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 192)
+HEADER_dirs := 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 262)
+CFLAGS_SL = -fPIC
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 167)
+HEADER_xdirs := 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 488)
+STRIP_STATIC_LIB = strip -x
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 260)
+CXX = /home/jayesh-14759/zlabs/installs/llvm11/bin/clang++
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 645)
+pg_regress_locale_flags = $(if $(ENCODING),--encoding=$(ENCODING)) $(NOLOCALE)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 160)
+pkglibdir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 279)
+DTRACEFLAGS = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 330)
+PERL = '/usr/bin/perl'
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 424)
+with_temp_install = PATH="$(abs_top_builddir)/tmp_install$(bindir):$$PATH" $(call add_to_path,$(strip $(ld_library_path_var)),$(abs_top_builddir)/tmp_install$(libdir)) $(with_temp_install_extra)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 648)
+pg_regress_check = $(with_temp_install) $(top_builddir)/src/test/regress/pg_regress --temp-instance=./tmp_check --inputdir=$(srcdir) --bindir= $(TEMP_CONF) $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1042)
+COMPILE.c.bc = $(CLANG) -Wno-ignored-attributes $(BITCODE_CFLAGS) $(CPPFLAGS) -flto=thin -emit-llvm -c
+# environment
+LC_ALL = C
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 202)
+enable_dtrace = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 475)
+INSTALL_PROGRAM = $(INSTALL_PROGRAM_ENV) $(INSTALL) $(INSTALL_STRIP_FLAG)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 208)
+python_includespec = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 231)
+LLVM_BINPATH = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 222)
+TCL_LIB_SPEC = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 565)
+libpq_srcdir = $(includedir)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 408)
+PG_PROVE_FLAGS = -I $(top_srcdir)/src/test/perl/ -I $(srcdir)
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 730)
+LIBS := -lpgcommon -lpgport -lz -lreadline -lm 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 337)
+perl_embed_ccflags = 
+# automatic
+^F = $(notdir $^)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 212)
+python_majorversion = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 662)
+pg_isolation_regress_check = $(with_temp_install) $(top_builddir)/src/test/isolation/pg_isolation_regress --temp-instance=./tmp_check_iso --inputdir=$(srcdir) --outputdir=output_iso --bindir= $(TEMP_CONF) $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
+# default
+SUFFIXES := 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 905)
+COMPILE.c = $(CC) $(CFLAGS) $(CPPFLAGS) -c
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 479)
+INSTALL_SHLIB = $(INSTALL_SHLIB_ENV) $(INSTALL) $(INSTALL_SHLIB_OPTS) $(INSTALL_STRIP_FLAG)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 259)
+SUN_STUDIO_CC = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 502)
+GENHTML = 
+# environment
+WINDOWPATH = 2
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 200)
+enable_nls = no
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 574)
+libpq = -L$(libpq_builddir) -lpq
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 477)
+INSTALL_DATA = $(INSTALL) -m $(INSTALL_DATA_MODE)
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 164)
+docdir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/share/doc/postgresql
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 335)
+perl_privlibexp = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 349)
+XGETTEXT = 
+# default
+.RECIPEPREFIX := 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 76)
+NO_GENERATED_HEADERS = yes
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 6)
+rpath = -Wl,-rpath,'$(rpathdir)',--enable-new-dtags
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 496)
+XSLTPROC = 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1065)
+define install_llvm_module
+$(MKDIR_P) '$(DESTDIR)${bitcodedir}/$(1)'
+$(MKDIR_P) $(sort $(dir $(addprefix '$(DESTDIR)${bitcodedir}'/$(1)/, $(2))))
+$(foreach obj, ${2}, $(INSTALL_DATA) $(patsubst %.o,%.bc, $(obj)) '$(DESTDIR)${bitcodedir}'/$(1)/$(dir $(obj))
+)
+cd '$(DESTDIR)${bitcodedir}' && $(LLVM_BINPATH)/llvm-lto -thinlto -thinlto-action=thinlink -o $(1).index.bc $(addprefix $(1)/,$(patsubst %.o,%.bc, $(2)))
+
+endef
+# environment
+LANG = C
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 78)
+configure_args = '--prefix=/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d' '--enable-cassert' '--enable-depend' '--enable-debug' 'CC=/home/jayesh-14759/zlabs/installs/llvm11/bin/clang' 'CFLAGS=-DRANDOMIZE_ALLOCATED_MEMORY -O0 -fno-omit-frame-pointer -fsanitize=address' 'CXX=/home/jayesh-14759/zlabs/installs/llvm11/bin/clang++'
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 525)
+host_tuple = x86_64-pc-linux-gnu
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 157)
+datadir := /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/share/postgresql
+# environment
+VSCODE_PID = 12153
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 547)
+rpathdir = $(libdir)
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 233)
+BITCODE_CFLAGS = -O2 
+# makefile (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 195)
+with_llvm = no
+# variable set hash-table stats:
+# Load=318/1024=31%, Rehash=0, Collisions=116/572=20%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 57, inode 161185): 10 files, 2 impossibilities.
+# .deps (device 57, inode 162253): 3 files, no impossibilities.
+
+# 13 files, 2 impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.so: %.o
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 13):
+	$(CC) $(CFLAGS) $(LDFLAGS) $(LDFLAGS_SL) -shared -o $@ $<
+
+%.c: %.l
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 747):
+	$(FLEX) $(if $(FLEX_NO_BACKUP),-b) $(FLEXFLAGS) -o'$@' $<
+	@$(if $(FLEX_NO_BACKUP),if [ `wc -l <lex.backup` -eq 1 ]; then rm lex.backup; else echo "Scanner requires backup; see lex.backup." 1>&2; exit 1; fi)
+	$(if $(FLEX_FIX_WARNING),$(PERL) $(top_srcdir)/src/tools/fix-old-flex-code.pl '$@')
+
+%.c: %.y
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 755):
+	$(if $(BISON_CHECK_CMD),$(BISON_CHECK_CMD))
+	$(BISON) $(BISONFLAGS) -o $@ $<
+
+%.i: %.c
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 763):
+	$(CPP) $(CPPFLAGS) -o $@ $<
+
+%.gz: %
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 766):
+	$(GZIP) --best -c $< >$@
+
+%.bz2: %
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 769):
+	$(BZIP2) -c $< >$@
+
+%: %.c
+
+%.o: %.c
+ 
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 918):
+	@if test ! -d $(DEPDIR); then mkdir -p $(DEPDIR); fi
+	$(COMPILE.c) -o $@ $< -MMD -MP -MF $(DEPDIR)/$(*F).Po
+
+%.o: %.cpp
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 922):
+	@if test ! -d $(DEPDIR); then mkdir -p $(DEPDIR); fi
+	$(COMPILE.cc) -o $@ $< -MMD -MP -MF $(DEPDIR)/$(*F).Po
+
+%.bc: %.c
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1050):
+	$(COMPILE.c.bc) -o $@ $<
+
+%.bc: %.cpp
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1053):
+	$(COMPILE.cxx.bc) -o $@ $<
+
+%.sql: %.sql.in
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 425):
+	sed 's,MODULE_PATHNAME,$$libdir/$*,g' $< >$@
+
+# 12 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/item.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/datatype/timestamp.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.878874072
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lockdefs.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lwlocknames.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:22.010875751
+#  File has been updated.
+#  Successfully updated.
+
+maintainer-clean: clean-deps clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/postgres.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.862873869
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/fmgr.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.862873869
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/sdir.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/errcodes.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.850873715
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/tuplesort.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+testext.o: testext.c testext.c /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/postgres.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/c.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/postgres_ext.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_ext.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_manual.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_os.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/elog.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/errcodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/palloc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/transam.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/xlogdefs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/fmgr.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/funcapi.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupdesc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/attnum.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/pg_attribute.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/genbki.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/pg_attribute_d.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/pg_list.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/nodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/executor.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/execdesc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/execnodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/genam.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/sdir.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/skey.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/stratnum.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/tidbitmap.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/itemptr.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/block.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/off.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/itemid.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/dsa.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/arch-x86.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/generic-gcc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/fallback.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/generic.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/dsm.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/dsm_impl.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lockdefs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/relcache.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/bitmapset.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/snapshot.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/htup.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/datatype/timestamp.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/pairingheap.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/stringinfo.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/buf.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/heapam.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/lockoptions.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/primnodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/bufpage.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/item.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupconvert.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/instrument.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/portability/instr_time.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/params.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/plannodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/hsearch.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/queryenvironment.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/reltrigger.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/sharedtuplestore.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/fd.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/sharedfileset.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/spin.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/s_lock.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/sortsupport.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/tuplestore.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/tuptable.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/tuplesort.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/itup.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupmacs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/condition_variable.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/proclist_types.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/simplehash.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/tcop/dest.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/execPartition.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/parsenodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/value.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/partitioning/partdefs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/partitioning/partprune.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/relation.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/memutils.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/memnodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/miscadmin.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pgtime.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lwlock.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lwlocknames.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/pg_shmem.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/shmem.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/ipc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/builtins.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/fmgrprotos.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'testext'
+#  Last modified 2022-07-28 16:36:12.312643898
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := testext.o
+# automatic
+# % := 
+# automatic
+# * := testext
+# automatic
+# + := testext.c testext.c /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/postgres.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/c.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/postgres_ext.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_ext.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_manual.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_os.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/elog.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/errcodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/palloc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/transam.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/xlogdefs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/fmgr.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/funcapi.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupdesc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/attnum.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/pg_attribute.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/genbki.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/pg_attribute_d.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/pg_list.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/nodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/executor.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/execdesc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/execnodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/genam.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/sdir.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/skey.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/stratnum.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/tidbitmap.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/itemptr.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/block.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/off.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/itemid.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/dsa.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/arch-x86.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/generic-gcc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/fallback.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/generic.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/dsm.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/dsm_impl.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lockdefs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/relcache.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/ 
+include/postgresql/server/nodes/bitmapset.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/snapshot.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/htup.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/datatype/timestamp.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/pairingheap.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/stringinfo.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/buf.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/heapam.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/lockoptions.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/primnodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/bufpage.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/item.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupconvert.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/instrument.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/portability/instr_time.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/params.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/plannodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/hsearch.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/queryenvironment.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/reltrigger.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/sharedtuplestore.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/fd.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/sharedfileset.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/spin.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/s_lock.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/sortsupport.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/tuplestore.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/tuptable.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/tuplesort.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/itup.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupmacs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/condition_variable.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/proclist_types.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/simplehash.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/tcop/dest.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/execPartition.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/parsenodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/value.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/partitioning/partdefs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/partitioning/partprune.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/relation.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/memutils.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/memnodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/miscadmin.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pgtime.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lwlock.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lwlocknames.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/pg_shmem.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/shmem.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/ipc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/builtins.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/fmgrprotos.h
+# automatic
+# | := 
+# automatic
+# < := testext.c
+# automatic
+# ^ := testext.c /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/postgres.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/c.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/postgres_ext.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_ext.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_manual.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_os.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/elog.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/errcodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/palloc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/transam.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/xlogdefs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/fmgr.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/funcapi.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupdesc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/attnum.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/pg_attribute.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/genbki.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/pg_attribute_d.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/pg_list.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/nodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/executor.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/execdesc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/execnodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/genam.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/sdir.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/skey.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/stratnum.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/tidbitmap.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/itemptr.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/block.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/off.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/itemid.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/dsa.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/arch-x86.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/generic-gcc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/fallback.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/generic.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/dsm.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/dsm_impl.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lockdefs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/relcache.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/bitmapset.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/snapshot.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/htup.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/datatype/timestamp.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/pairingheap.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/stringinfo.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/buf.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/heapam.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/lockoptions.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/primnodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/bufpage.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/item.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupconvert.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/instrument.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/portability/instr_time.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/params.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/plannodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/hsearch.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/queryenvironment.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/reltrigger.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/sharedtuplestore.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/fd.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/sharedfileset.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/spin.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/s_lock.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/sortsupport.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/tuplestore.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/tuptable.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/tuplesort.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/itup.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupmacs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/condition_variable.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/proclist_types.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/simplehash.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/tcop/dest.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/execPartition.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/parsenodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/value.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/partitioning/partdefs.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/partitioning/partprune.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/relation.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/memutils.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/memnodes.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/miscadmin.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pgtime.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lwlock.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lwlocknames.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/pg_shmem.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/shmem.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/ipc.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/builtins.h /home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/fmgrprotos.h
+# automatic
+# ? := testext.c
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/23=9%
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 918):
+	@if test ! -d $(DEPDIR); then mkdir -p $(DEPDIR); fi
+	$(COMPILE.c) -o $@ $< -MMD -MP -MF $(DEPDIR)/$(*F).Po
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/queryenvironment.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/portability/instr_time.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.938874836
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/proclist_types.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+checkprep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 403):
+	$(if $(EXTRA_INSTALL),for extra in $(EXTRA_INSTALL); do $(MAKE) -C '$(top_builddir)'/$$extra DESTDIR='$(abs_top_builddir)'/tmp_install install || exit; done)
+
+all: submake-generated-headers testext.so testext.control
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/12=0%
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/postgres_ext.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.862873869
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all install installdirs uninstall distprep clean distclean maintainer-clean coverage check checkprep installcheck init-po update-po install-strip html man installcheck-parallel maintainer-check submake-generated-headers temp-install show_dl_suffix submake-libpq submake-libpgport submake-libpgfeutils clean-deps
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pgtime.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.862873869
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/itemid.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/heapam.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/pg_shmem.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+.SECONDARY:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/pg_attribute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.870873971
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/relation.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+distclean: clean-deps clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+temp-install: | submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/stringinfo.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.894874276
+#  File has been updated.
+#  Successfully updated.
+
+maintainer-check:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/snapshot.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.custom:
+#  Implicit rule search has been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/tcop/dest.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+uninstall:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 298):
+	rm -f $(addprefix '$(DESTDIR)$(datadir)/extension'/, $(notdir $(addsuffix .control, $(EXTENSION))))
+	rm -f $(addprefix '$(DESTDIR)$(datadir)/$(datamoduledir)'/, $(notdir $(DATA) $(DATA_built)))
+	rm -f $(addprefix '$(DESTDIR)$(pkglibdir)'/, $(addsuffix $(DLSUFFIX), $(MODULES)))
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/genbki.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.870873971
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-22 16:57:27.15834908
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/block.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/executor.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.882874123
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/execdesc.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.882874123
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/lockoptions.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/itemptr.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+man:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/stratnum.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/fmgrprotos.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.858873818
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.862873869
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/attnum.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.862873869
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/palloc.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+update-po:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/itup.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/dsm_impl.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/partitioning/partdefs.h:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-07-16 16:16:21.906874428
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:23.078889338
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/nodes.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/pg_list.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testext.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-28 16:38:45.278979501
+#  File has been updated.
+#  Successfully updated.
+
+testext.so: testext.o
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'testext'
+#  Last modified 2022-07-28 16:36:12.340643594
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/12=0%
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 13):
+	$(CC) $(CFLAGS) $(LDFLAGS) $(LDFLAGS_SL) -shared -o $@ $<
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/tidbitmap.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/params.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/c.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.858873818
+#  File has been updated.
+#  Successfully updated.
+
+submake-libpq: | submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 600):
+	$(MAKE) -C $(libpq_builddir) all
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/bufpage.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/condition_variable.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/s_lock.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/funcapi.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.862873869
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:23.078889338
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/sharedtuplestore.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+clean-deps:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 940):
+	@rm -rf $(DEPDIR)
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/parsenodes.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+show_dl_suffix:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 556):
+	@echo $(DLSUFFIX)
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/miscadmin.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.862873869
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/builtins.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupdesc.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+submake-libpgport: | submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 603):
+	$(MAKE) -C $(top_builddir)/src/port all
+	$(MAKE) -C $(top_builddir)/src/common all
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/fallback.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.930874734
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/off.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/elog.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupconvert.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/hsearch.h:
+ 
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/htup.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testext.control:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/lwlock.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+installcheck: submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/instrument.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.882874123
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/execnodes.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/plannodes.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/tuplestore.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/sharedfileset.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.deps/testext.Po:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-28 16:36:12.312643898
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/catalog/pg_attribute_d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.946874937
+#  File has been updated.
+#  Successfully updated.
+
+submake-libpgfeutils: | submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 607):
+	$(MAKE) -C $(top_builddir)/src/port all
+	$(MAKE) -C $(top_builddir)/src/common all
+	$(MAKE) -C $(top_builddir)/src/fe_utils all
+
+clean: clean-deps
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 339):
+	rm -f $(addsuffix $(DLSUFFIX), $(MODULES)) $(addsuffix .o, $(MODULES)) $(if $(PGFILEDESC),$(WIN32RES)) \
+	    $(addsuffix .bc, $(MODULES))
+
+coverage:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/skey.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/tupmacs.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+install-strip:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 825):
+	$(MAKE) use_install_sh=yes \
+	    INSTALL_PROGRAM_ENV="STRIPPROG='$(STRIP)'" \
+	    INSTALL_STLIB_ENV="STRIPPROG='$(STRIP_STATIC_LIB)'" \
+	    INSTALL_SHLIB_ENV="STRIPPROG='$(STRIP_SHARED_LIB)'" \
+	    INSTALL_STRIP_FLAG=-s \
+	    install
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/memutils.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/pairingheap.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.894874276
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/reltrigger.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/ipc.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/spin.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_os.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.850873715
+#  File has been updated.
+#  Successfully updated.
+
+html:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/sortsupport.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_manual.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.862873869
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/dsm.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/relcache.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/shmem.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/fd.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/memnodes.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/generic.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.930874734
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/genam.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+init-po:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/storage/buf.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.914874531
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/primnodes.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+installcheck-parallel:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.850873715
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/partitioning/partprune.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.906874428
+#  File has been updated.
+#  Successfully updated.
+
+.DELETE_ON_ERROR:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/tuptable.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.882874123
+#  File has been updated.
+#  Successfully updated.
+
+check: submake-generated-headers temp-install
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/arch-x86.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.930874734
+ 
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/bitmapset.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/nodes/value.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.898874326
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/lib/simplehash.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.894874276
+#  File has been updated.
+#  Successfully updated.
+
+distprep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:23.010888473
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/xlogdefs.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/utils/dsa.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.926874683
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/pg_config_ext.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.850873715
+#  File has been updated.
+#  Successfully updated.
+
+submake-generated-headers:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/access/transam.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.86687392
+#  File has been updated.
+#  Successfully updated.
+
+installdirs:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 271):
+	$(MKDIR_P) '$(DESTDIR)$(datadir)/extension'
+	$(MKDIR_P) '$(DESTDIR)$(datadir)/$(datamoduledir)'
+	$(MKDIR_P) '$(DESTDIR)$(pkglibdir)'
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/port/atomics/generic-gcc.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.930874734
+#  File has been updated.
+#  Successfully updated.
+
+install: all installdirs submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 229):
+	$(INSTALL_DATA) $(addprefix $(srcdir)/, $(addsuffix .control, $(EXTENSION))) '$(DESTDIR)$(datadir)/extension/'
+	$(INSTALL_DATA) $(addprefix $(srcdir)/, $(DATA)) $(DATA_built) '$(DESTDIR)$(datadir)/$(datamoduledir)/'
+	$(INSTALL_SHLIB) $(addsuffix $(DLSUFFIX), $(MODULES)) '$(DESTDIR)$(pkglibdir)/'
+
+/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server/executor/execPartition.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 16:16:21.882874123
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=137/1024=13%, Rehash=0, Collisions=41/419=10%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 2 (0) / strings = 161 / storage = 9902 B / avg = 61 B
+# current buf: size = 8162 B / used = 1816 B / count = 26 / avg = 69 B
+# other used: total = 8086 B / count = 135 / avg = 59 B
+# other free: total = 76 B / max = 76 B / min = 76 B / avg = 76 B
+
+# strcache performance: lookups = 464 / hit rate = 65%
+# hash-table stats:
+# Load=161/8192=2%, Rehash=0, Collisions=5/464=1%
+# Finished Make data base on Mon Aug  1 15:33:29 2022
+
+ 

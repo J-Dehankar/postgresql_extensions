@@ -1,0 +1,7 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "executor.h": "c",
+        "funcapi.h": "c"
+    }
+}
