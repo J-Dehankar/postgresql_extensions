@@ -1,0 +1,12 @@
+postgres=# select * from testext();
+// testext is out extension name
+
+ query_name | query_count 
+------------+-------------
+ UNKNOWN    |           0
+ SELECT     |           5
+ UPDATE     |           2
+ INSERT     |           4
+ DELETE     |           3
+ UTILITY    |           0
+ NOTHING    |           0
