@@ -1,5 +1,5 @@
 postgres=# select * from testext();
-// testext is out extension name
+// testext is our extension name
 
  query_name | query_count 
 ------------+-------------
