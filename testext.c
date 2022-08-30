@@ -105,7 +105,7 @@ myfunc_shmem_startup(void) {
 
 		// initialize contents of shmem area;
 		// acquire any requested LWLocks using:
-		ptr->lock = GetNamedLWLockTranche("testext");
+		ptr->lock = &(GetNamedLWLockTranche("testext"))->lock;
 
 		ptr->count_unknown = 0;
 		ptr->count_select = 0;

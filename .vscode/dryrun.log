@@ -1,8 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/local/ZOHOCORP/jayesh-14759/extensions/testext'
- 
-if test ! -d .deps; then mkdir -p .deps; fi
-/home/jayesh-14759/zlabs/installs/llvm11/bin/clang -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Wendif-labels -Wmissing-format-attribute -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -g -DRANDOMIZE_ALLOCATED_MEMORY -O0 -fno-omit-frame-pointer -fsanitize=address -fPIC -I. -I./ -I/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/server -I/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/include/postgresql/internal  -D_GNU_SOURCE   -c -o testext.o testext.c -MMD -MP -MF .deps/testext.Po
-/home/jayesh-14759/zlabs/installs/llvm11/bin/clang -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Wendif-labels -Wmissing-format-attribute -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -g -DRANDOMIZE_ALLOCATED_MEMORY -O0 -fno-omit-frame-pointer -fsanitize=address -fPIC -L/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib   -Wl,--as-needed -Wl,-rpath,'/home/jayesh-14759/zlabs/installs/pg/deb11/pg11d/lib',--enable-new-dtags  -shared -o testext.so testext.o
-make: Leaving directory '/home/local/ZOHOCORP/jayesh-14759/extensions/testext'
- 
