@@ -128,12 +128,14 @@ Datum testext(PG_FUNCTION_ARGS)
 	rsinfo->returnMode = SFRM_Materialize;
 
 	MemoryContext per_query_ctx = rsinfo->econtext->ecxt_per_query_memory;
-	MemoryContext oldcontext = MemoryContextSwitchTo(per_query_ctx);	
+
+	MemoryContext oldcontext = MemoryContextSwitchTo(per_query_ctx);
 
 	Tuplestorestate *tupstore = tuplestore_begin_heap(false, false, work_mem);
 	rsinfo->setResult = tupstore;
-	
 	TupleDesc tupdesc = rsinfo->expectedDesc;
+	
+	MemoryContextSwitchTo(oldcontext);
 	
 	Datum values[2];
 	bool nulls[2] = {false};
@@ -166,9 +168,7 @@ Datum testext(PG_FUNCTION_ARGS)
 	values[1] = Int64GetDatum(ptr->count_nothing);
 	tuplestore_putvalues(tupstore, tupdesc, values, nulls);
 
-
 	tuplestore_donestoring(tupstore);
-	MemoryContextSwitchTo(oldcontext);
 
 	PG_RETURN_NULL();
 }
